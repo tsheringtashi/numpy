@@ -1,0 +1,20 @@
+gift_sales1 = pd.Series(data = [1,2,3], index = ["magnets", "coasters", "hangbag"])
+
+gift_sales2 = pd.Series(data = [4,5,6], index = ["magnets", "coasters", "hangbag"])
+
+gift_sale1 + gift_sale2 gives total sales of each item.
+
+
+
+gift_sale3 = pd.Series(data = [1,2,3], index = ["magnets", "coasters", "shoes"])
+
+
+# output of all total gift_sale1 + gift_sale2 + gift_sale3 would give the following
+
+magnets   6.0
+coasters  9.0
+handbag    NaN
+shoes      NaN
+
+
+# the handbag and shoes are not in all lists so it return NaN
